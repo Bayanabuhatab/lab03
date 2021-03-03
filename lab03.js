@@ -1,7 +1,7 @@
 'use strict';
 
-var score = 0;
-var name = prompt('What is your name?');
+let score = 0;
+let name = prompt('What is your name?');
 console.log('User name: ' + name);
 
 alert('Hi ' + name + ', Welcome to my page!');
@@ -35,14 +35,14 @@ function noCorrect (question) {
 
 
 // Guess Question 1
-var favColor = prompt(name + " Is my favorite color Red? Yes or No:");
+let favColor = prompt(name + " Is my favorite color Red? Yes or No:");
 console.log('my favorite color: ' + favColor);
 
 noCorrect(favColor);
 
 
 // Guess Question 2
-var coffee = prompt(name + ' Do I like coffee? Yes or No:');
+let coffee = prompt(name + ' Do I like coffee? Yes or No:');
 console.log('coffee: ' + coffee);
 
 noCorrect(coffee);
@@ -55,7 +55,7 @@ console.log('love Dubai: ' + loveDubai);
 noCorrect(loveDubai);
 
 // Guess Question 4
-var HPUser = prompt(name + ' Do I prefer HP computers? Yes or No');
+let HPUser = prompt(name + ' Do I prefer HP computers? Yes or No');
 console.log('HP user: ' + HPUser);
 
 yesCorrect(HPUser);
